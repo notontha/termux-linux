@@ -62,7 +62,7 @@ def install_kali():
     imagedir = 'termux-kali'
     tarball = "kali-rootfs-arm64.tar.xz"
     print("\n正在从码云下载 Rootfs 镜像文件，请耐心等待")
-    os.system('wget "https://notontha.coding.net/s/c8caccdc-ea23-4b1b-8e7b-ca80299f082c"')
+    os.system('wget "https://notontha.coding.net/api/share/download/c8caccdc-ea23-4b1b-8e7b-ca80299f082c"')
     print('\n下载完成 看来国内码云的速度还是可以的 2333')
     print('\n正在解压镜像 请耐心等待')
     os.system(f'mkdir -p $HOME/Termux-Linux/{osname}/{folder}')
@@ -92,7 +92,7 @@ def install_debian():
     imagedir = 'termux-debian'
     tarball = "debian-rootfs-arm64.tar.xz"
     print("\n正在从码云下载 Rootfs 镜像文件，请耐心等待")
-    os.system('wget "https://notontha.coding.net/s/7b458a5b-b755-492f-b7f4-b268d9fddffd"')
+    os.system('wget "https://notontha.coding.net/api/share/download/742efd9e-e92d-493f-b106-1568f1e2c1eb"')
     print('\n下载完成 看来国内码云的速度还是可以的 2333')
     print('\n正在解压镜像 请耐心等待')
     os.system(f'mkdir -p $HOME/Termux-Linux/{osname}/{folder}')
@@ -122,7 +122,7 @@ def install_centos():
     imagedir = 'termux-centos'
     tarball = "centos-rootfs-arm64.tar.xz"
     print("\n正在从码云下载 Rootfs 镜像文件，请耐心等待")
-    os.system('wget "https://notontha.coding.net/s/6bd88144-08da-4e9a-ab21-9a30cdb77518"')
+    os.system('wget "https://notontha.coding.net/api/share/download/6bd88144-08da-4e9a-ab21-9a30cdb77518"')
     print('\n下载完成 看来国内码云的速度还是可以的 2333')
     print('\n正在解压镜像 请耐心等待')
     os.system(f'mkdir -p $HOME/Termux-Linux/{osname}/{folder}')
@@ -155,7 +155,7 @@ def install_fedora():
     imagedir = 'termux-fedora'
     tarball = "fedora-rootfs-arm64.tar.xz"
     print("\n正在从码云下载 Rootfs 镜像文件，请耐心等待")
-    os.system('wget "https://notontha.coding.net/s/7b458a5b-b755-492f-b7f4-b268d9fddffd"')
+    os.system('wget "https://notontha.coding.net/api/share/download/7b458a5b-b755-492f-b7f4-b268d9fddffd"')
     print('\n下载完成 看来国内码云的速度还是可以的 2333')
     print('\n正在解压镜像 请耐心等待')
     os.system(f'mkdir -p $HOME/Termux-Linux/{osname}/{folder}')
